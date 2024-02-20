@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --greycolor:rgb(55, 54, 54);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.logoImg{
+    display: block;
+    margin: 2rem auto;
+}
+.text,.form{
+    width: 60%;
+    margin: 2rem auto;
+}
+.text,.form{
+    background-image: url(./images/transparent_white.png);
+    min-width: 30rem;
+    text-align: center;
+    padding: 0.1px;
+}
+.text{
+    border: 0.5rem solid black;
+}
+.text h1{
+    padding: 1rem;
+}
+.text p{
+    font-size: large;
+    padding: 1rem;
+}
+fieldset{
+    border: none;
+}
+.form h2{
+    margin: 1rem auto;
+}
+.form legend{
+    margin: 1rem auto;
+    font-size: large;
+}
+.form label,.form input,button{
+    width: 60%;
+    display: block;
+    margin: 0.2rem auto;
+    text-align: left;
+    padding: 0.5rem;
+}
+.form label{
+    text-transform: uppercase;
+    background-color: var(--greycolor);
+    color: white;
+}
+.form input{
+
+}
+button{
+    background-color: var(--greycolor);
+    color: white;
+    font-style: italic;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: large;
+}
+.yy{
+    /* background-color: white; */
+    width: 8%;
+    margin: 1rem auto;
+}
+.yy p{
+    display: inline-block;
+    color: rgb(45, 44, 44);
+}
